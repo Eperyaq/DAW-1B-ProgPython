@@ -61,13 +61,13 @@
 
 
 #2.10
-#resultado= pow((3+2/2*5), 2)
+#resultado= pow(((3+2)/(2*5)), 2)
 #print(resultado)
 
 #2.11 ¿?
-#a=0
-#print("Dame un numero: ")
-#a=int(input())
+#a=int(input("Dame un numero"))
+#suma = (a*(a+1)) /2
+#print("La suma es: " , suma)
 
 #for()
 #while a<=1 or a>1:
@@ -86,7 +86,10 @@
 #2.13 ¿?
 #n = int(input("Dime un numero: "))
 #m = int(input("Dime otro: "))
-#print("La división de" , n , "entre " , m ,  "da un cociente" )
+#c = n//m
+#r = n%m
+#print("La división de" , n , "entre " , m ,  "da un cociente" ,c, "y un resto" ,r,)
+
 
 #2.14
 #payaso=int(input("Cuantos payasos quieres que haya en el pedido?: "))
@@ -96,6 +99,54 @@
 
 #2.15 ¿?
 #dinero=float(input("Cuanto dinero hay en la cuenta?: "))
-#interes= 0.4
-#total= dinero*interes
-#print("En el primer año tienes:")
+#interes = dinero * (1+0.04)
+#print("ahorros en el primer año= "{intereses:.2})
+
+
+
+#2.16
+
+#PRECIO= 3.49
+
+#2.17
+#nombre = input("Dime tu nombre: ")
+#veces=int(input("Repetir.  cuantas?"))
+#print((nombre + "\n") * veces)
+
+#2.18
+#nombre=input("Nombre completo: ")
+#print(nombre.lower())
+#print(nombre.upper())
+#print(nombre.title())
+
+#2.19
+#usar  len()
+
+#2.20
+#numero= input("Dime el numero del telefnno con el formato(+34)" )
+#contador=numero.split("-")
+#if len(numero)==16 and numero[0]=="+":
+    #if len(contador[1])==9:
+       # print(contador[1])
+    #else:
+        #print("formato incorrecto")
+
+#2.21
+#m= "hola"
+#print(m[::-1])
+
+#2.22
+#frase = input("Dime una frase: ")
+#vocal= input("Dime una vocal para ponerla en mayusculas: ")
+#print(frase.replace(vocal, vocal.upper()))
+
+#2.23
+#mail = input("Dime tu correo electronico: ")
+#print(mail[:mail.find("@")] + "@ceu.es")
+
+#2.24 mirarlo
+#precio=(input("Dime el precio: "))
+#precio2=str(precio).split(".")
+#print("Cuesta " , precio[0] , " euros y " ,precio[1], "céntimos")
+
+
