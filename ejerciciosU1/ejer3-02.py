@@ -2,14 +2,16 @@
 #preguntar en clase
 x=int(input("Dame un numero: "))
 y=int(input("Dame otro numero: "))
-if (x >= y):
+
+if (x <= y):
     numini = x
     numfin = y 
 else:
     numini = y
     numfin = x
+
 while (numini <= numfin):
-    print(numini)
+    print(numini , end="")
     if (numini != numfin):
-        print("-")
-        numini= numini+1
+        print("-" , end="")
+    numini+=1
