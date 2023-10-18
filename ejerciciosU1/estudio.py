@@ -27,8 +27,8 @@
 #        print("-", end="")
 #    numini = numini + 1
 
-#p= len(input("palabra: "))
-#print("P tiene ", p, "caracteres")
+p= len(input("palabra: "))
+print("P tiene ", p, "caracteres")
 
 #d=float(input("Dime numeros decimales para sumar."))
 #e=float(input("Dime numeros decimales para sumar."))
