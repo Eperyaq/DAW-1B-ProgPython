@@ -46,3 +46,33 @@ while (cont <= len(miLista)):
         else:
             print("Estás diciendo la verdad.")
     cont += 1
+
+    
+    """
+CORRECCIÓN EXAMEN
+
+"""
+
+
+miLista = [43, "pedro pablo", 17.66, 8.99, "maría jesús", True, "ANA esperanza", 25, False, 9.99]
+
+cont = 0
+while (cont < len(miLista)):
+    if type(miLista[cont]) is int:
+        edad = miLista[cont]
+        print("Tienes" , edad , "años.")
+    elif type(miLista[cont]) is float:
+        precio = float(miLista[cont])
+        precioOferta = precio*0.85
+        print("El producto vale {:.0f}€, pero está en oferta por {:.2f}€".format(precio, precioOferta))
+    elif type(miLista[cont]) is str:
+        nombreCompleto = str(miLista[cont]).title().replace("A" , "@").replace("a" , "@")
+        nombreCorto = str(miLista[cont]).split(" ")[0].upper()
+        print("Te llamas", nombreCompleto + ", pero todos te conocen cómo", nombreCorto + ".")
+    elif type(miLista[cont]) is bool:
+        verdad = bool(miLista[cont])
+        if (bool==False):
+            print("Estás diciendo una mentira.")
+        else:
+            print("Estás diciendo la verdad.")
+    cont += 1

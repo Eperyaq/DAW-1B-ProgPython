@@ -16,3 +16,20 @@ Inicio
             escribe "Es par" 
 Fin
 """
+"""
+CORRECCIÓN EXAMEN
+
+Inicio
+    escribe "Dime un numero y te dire si es par o impar"
+    lee num
+    si (num<0 or num>10) entonces
+        escribe "ERROR, el numero no puede ser ni negativo ni mayor que diez"
+    sino
+        si (num % 2==0) entonces
+            escribe "Es par"
+        sino
+            escribe "Es impar" 
+Fin
+
+
+"""

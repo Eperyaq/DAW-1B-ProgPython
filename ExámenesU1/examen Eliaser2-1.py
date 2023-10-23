@@ -54,3 +54,21 @@ else:
             lista= lista + " - "
     print("Lista de frutas favoritas =>", lista, end=".")
 #He puesto el end="." porque al concatenarlo todo se quedaba un espacio entre el punto y el objeto de la lista.
+
+"""
+CORRECCIÓN EXAMEN
+
+"""
+
+fruta=(input("Dime tu fruta favorita: "))
+if(fruta==""):
+    print("No te gusta ninguna fruta.")
+else:
+    
+    while (fruta!=""):
+        lista=""
+        lista = lista + fruta
+        fruta=input("dime otra: ")
+        if (fruta!=""):
+            lista= lista + " - "
+    print("Lista de frutas favoritas =>", lista, end=".")

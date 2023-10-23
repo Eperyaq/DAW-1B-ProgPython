@@ -35,3 +35,26 @@ print(palabra[:palabra.find("a")]  + "@")
 print(palabra[:palabra.find("e")]  + "3")
 print(palabra[:palabra.find("i")]  + "1")
 print(palabra[:palabra.find(" u,o")]  + palabra.lower())
+
+"""
+CORRECCIÓN EXAMEN
+"""
+palabra = input("Introduzca una palabra: ").replace(" ", "")
+
+while len(palabra) < 8:
+    palabra = input("Introduzca una palabra: *Mínimo 8 caracteres").replace(" ", "")
+
+palabra = palabra.upper()
+palabra = palabra.replace("A", "@")
+palabra = palabra.replace("E", "3")
+palabra = palabra.replace("I", "1")
+palabra = palabra.replace("O", "o")
+palabra = palabra.replace("U", "u")
+
+if len(palabra)==8:
+    palabra =  "*" , palabra ,"#"
+print(palabra)
+
+
+
+
