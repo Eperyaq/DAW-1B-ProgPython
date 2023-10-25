@@ -1,11 +1,20 @@
-def contra():
-    contraseña="contraseña"
-    contra=input("Dime cual crees que es la contraseña: ")
-    if contra==contraseña:
-        print("coincide!")
-    else:
-        print("no coincide.")
-    return
 
-print(contra())
-#sigo sin entender porque pone el none
+
+
+
+def comprobarPass(pass, entrada):
+
+
+
+def main():
+    contraseña = "contraseña"
+
+    entrada = in
+
+    print(contra())
+    #sigo sin entender porque pone el none
+
+
+
+if __name__ == "__main__":
+    main()
